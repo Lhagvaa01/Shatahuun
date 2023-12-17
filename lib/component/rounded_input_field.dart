@@ -15,6 +15,7 @@ class RoundedInputField extends StatelessWidget {
     required this.onChanged,
     this.keyboardType = TextInputType.text,
     required this.controller,
+    required bool readOnly,
   }) : super(key: key);
 
   @override

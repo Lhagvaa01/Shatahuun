@@ -134,6 +134,7 @@ class _CalcTopState extends State<CalcTop> {
             hintText: "1л-ийн Үнэ",
             onChanged: (String value) {},
             icon: Icons.price_change,
+            readOnly: false,
           ),
           RoundedInputField(
             keyboardType: TextInputType.number,
@@ -141,6 +142,7 @@ class _CalcTopState extends State<CalcTop> {
             hintText: "Нийт авсан үнэ",
             onChanged: (String value) {},
             icon: Icons.price_change_outlined,
+            readOnly: false,
           ),
           RoundedInputField(
             keyboardType: TextInputType.number,
@@ -148,6 +150,7 @@ class _CalcTopState extends State<CalcTop> {
             hintText: "Нийт явсан КМ",
             onChanged: (String value) {},
             icon: Icons.meeting_room,
+            readOnly: false,
           ),
           Container(
             margin: const EdgeInsets.symmetric(vertical: 10),
